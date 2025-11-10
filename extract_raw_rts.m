@@ -40,7 +40,6 @@ saveGroupData = 1;
 
 % Subject & scan info
 
-% something wrong w "02TM0526"
 SubjID   = {"01AM0902", "01AW1002", "01BP0513","01JB0223", "01JZ0719", "01MJ0412", "01RE1013","01TM1018","01TR0606", "02AM0425","02AW0324", "02BP1112","02JB0603", "02JZ0401", "02MJ0823","02RE0317","02TR0920"}; % **PAR YOU MAY NEED TO UPDATE**
 ScanDays = [1];          % Scan Days
 errB     = 'std';        % errorbars: use ste or std % **PAR YOU MAY NEED TO UPDATE**
@@ -449,3 +448,4 @@ for s = 1:numel(SubjID)
    end
    clear RT_Subj
 end 
+
