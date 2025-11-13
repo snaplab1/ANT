@@ -1,0 +1,544 @@
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 166837.998488 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 166838.000238 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 166838.002193, scanline = 239
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 109, line_post_swaprequest = 121, time_post_swaprequest = 166838.000421
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 166837.998560
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 167004.974020 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 167004.976710 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 167004.979234, scanline = 337
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 170, line_post_swaprequest = 214, time_post_swaprequest = 167004.977386
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 167004.974094
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 167339.323422 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 167339.325195 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 167339.326984, scanline = 230
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 111, line_post_swaprequest = 118, time_post_swaprequest = 167339.325307
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 167339.323494
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+We've hit an error.
+
+ans = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+       message: 'Conversion to char from cell is not possible.'
+    identifier: 'MATLAB:invalidConversion'
+         stack: [2×1 struct]
+
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 167387.934706 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 167387.940031 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 167387.941829, scanline = 462
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 343, line_post_swaprequest = 351, time_post_swaprequest = 167387.940151
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 167387.934764
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 167725.298681 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 167725.309310 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 167725.311540, scanline = 833
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 684, line_post_swaprequest = 693, time_post_swaprequest = 167725.309436
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 167725.298758
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 168074.157691 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 168074.166503 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 168074.168327, scanline = 688
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 566, line_post_swaprequest = 574, time_post_swaprequest = 168074.166621
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 168074.157761
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 168409.956635 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 168409.958110 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 168409.960137, scanline = 226
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 92, line_post_swaprequest = 105, time_post_swaprequest = 168409.958313
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 168409.956695
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 168745.605862 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 168745.609773 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 168745.612233, scanline = 412
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 249, line_post_swaprequest = 344, time_post_swaprequest = 168745.611222
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 168745.605934
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 169076.690319 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 169076.702894 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 169076.705172, scanline = 962
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 810, line_post_swaprequest = 842, time_post_swaprequest = 169076.703388
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 169076.690403
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+{Unrecognized function or variable 'antWelcome'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain3', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m', 35)" style="font-weight:bold">ANTmain3</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m',35,0)">line 35</a>)
+antWelcome
+} 
+ANTmain3
+{Unrecognized function or variable 'antWelcome'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain3', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m', 35)" style="font-weight:bold">ANTmain3</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m',35,0)">line 35</a>)
+antWelcome
+} 
+ANTmain2
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 348164.387826 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 348164.399214 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 348164.401653, scanline = 896
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 734, line_post_swaprequest = 747, time_post_swaprequest = 348164.399407
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 348164.387895
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PsychImaging', 'C:\toolbox\Psychtoolbox\PsychGLImageProcessing\PsychImaging.m', 2626)" style="font-weight:bold">PsychImaging</a> (<a href="matlab: opentoline('C:\toolbox\Psychtoolbox\PsychGLImageProcessing\PsychImaging.m',2626,0)">line 2626</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain2', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain2.m', 204)" style="font-weight:bold">ANTmain2</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain2.m',204,0)">line 204</a>)
+[window, screenrect] = PsychImaging('OpenWindow', screenNumber, grey);
+} 
+
+
+sca
+{Unrecognized function or variable 'antWelcome'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain3', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m', 35)" style="font-weight:bold">ANTmain3</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m',35,0)">line 35</a>)
+antWelcome
+} 
+ANTmain3
+{Unrecognized function or variable 'antWelcome'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain3', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m', 35)" style="font-weight:bold">ANTmain3</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m',35,0)">line 35</a>)
+antWelcome
+} 
+ANTmain3
+{Unrecognized function or variable 'antWelcome'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain3', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m', 35)" style="font-weight:bold">ANTmain3</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain3.m',35,0)">line 35</a>)
+antWelcome
+} 
+ANTmain2
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1203889.158401 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1203889.172315 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1203889.173999, scanline = 1010
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 898, line_post_swaprequest = 907, time_post_swaprequest = 1203889.172461
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1203889.158467
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1204042.756913 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1204042.759921 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1204042.761942, scanline = 325
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 191, line_post_swaprequest = 204, time_post_swaprequest = 1204042.760113
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1204042.756967
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1204388.168264 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1204388.173462 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1204388.175438, scanline = 464
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 333, line_post_swaprequest = 347, time_post_swaprequest = 1204388.173665
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1204388.168330
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1204747.506433 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1204747.521080 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1204747.522937, scanline = 1069
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 945, line_post_swaprequest = 959, time_post_swaprequest = 1204747.521291
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1204747.506509
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1205090.019207 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1205090.031878 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1205090.033860, scanline = 949
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 817, line_post_swaprequest = 830, time_post_swaprequest = 1205090.032067
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1205090.019281
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1205473.980068 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1205473.984314 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1205473.986395, scanline = 409
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 271, line_post_swaprequest = 282, time_post_swaprequest = 1205473.984489
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1205473.980137
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1205805.730830 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1205805.741596 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1205805.743555, scanline = 823
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 695, line_post_swaprequest = 707, time_post_swaprequest = 1205805.741778
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1205805.730867
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (144, 144), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+We've hit an error.
+
+ans = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+       message: 'Conversion to cell from char is not possible.'
+    identifier: 'MATLAB:invalidConversion'
+         stack: [2×1 struct]
+
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (144, 144), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ANTmain2', 'C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain2.m', 288)" style="font-weight:bold">ANTmain2</a> (<a href="matlab: opentoline('C:\Users\mmasl\OneDrive - Marquette University\Desktop\SNAP LAB\ANT\Code\ANTmain2.m',288,0)">line 288</a>)
+} 
+ANTmain2
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (144, 144), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+

@@ -1,0 +1,91 @@
+ 
+Experiment type set to:
+Practice
+ 
+Hemifield set to:
+c
+ 
+Subject ID set to:
+ejd
+ 
+Proportion of spatial cues that will be valid =0.75
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+ 
+Generating trial structure..
+ 
+ 
+Waiting for subject to press space to begin run..
+ 
+Subject pressed space. Beginning run..
+ 
+warning: save: no such variable 'trialtm'
+warning: called from
+    ANTmain3 at line 262 column 1
+
+warning: save: no such variable 'trialch'
+warning: called from
+    ANTmain3 at line 262 column 1
+
+warning: save: no such variable 'response'
+warning: called from
+    ANTmain3 at line 262 column 1
+
+warning: save: no such variable 'blockstart'
+warning: called from
+    ANTmain3 at line 262 column 1
+
+warning: save: no such variable 'blockstop'
+warning: called from
+    ANTmain3 at line 262 column 1
+
+
+
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    llll:.,:lllllll;';clllllll',:lllllll;.;clllllll'':cllll
+                    ll::,    'clc::.   .;ll:::    'clc::.   .,llc::    .:ll
+                    llll: .,:llllll'.';cllllll..,:llllll,..;cllllll..';llll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    llllllllllllllllllllllllllc,cllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    lllllllllllllllllllllllllllllllllllllllllllllllllllllll
+                    
+
+-------------------------------------------Hou ar ye?--------------------------------------------
+*********************** This is the main script for running ANT experiments ***********************
+*****************(antWelcome.m, Written by: A.S. Greenberg PhD, and E.J. Duwell PhD)*****************
+---------------------------------------------------------------------------------------------------
+**********************************Press Enter/Return to Continue...**********************************
+
+ans = 
+ 
+Experiment type set to:
+Practice
+ 
+Hemifield set to:
+c
+error: subjID(1,_): out of bound 0 (dimensions are 0x1)
+error: called from
+    ANTmain3 at line 74 column 7
+>> clear
+>> close all
+>> sca
+>> ANTmain3
